@@ -44,7 +44,7 @@ const TitleMessage = () => {
 
                     <Typewriter
                         options={{
-                        strings: ['Good', 'Day!'],
+                        strings: ['WEB DEVELOPER', 'Wanna be'],
                         autoStart: true,
                         loop: true,
                         }}
@@ -53,7 +53,7 @@ const TitleMessage = () => {
             </div>
         </div>
     </MyTitleMessage>
-    )
+  )
 }
 
 export default TitleMessage
