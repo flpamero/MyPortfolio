@@ -1,10 +1,12 @@
 .about {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.747);;
     font-size: 1.1em;
   }
   
   .profile {
     max-width: 18em;
+    border-radius: 20px;
+    box-shadow: rgb(26, 61, 61);
   }
   
   .my-details {

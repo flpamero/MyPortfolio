@@ -8,26 +8,29 @@ import "./MyNavbar.style.css"
 
 const MyNavbar = () => {
     return (
-        <>
-    <Navbar fixed="top" collapseOnSelect expand="lg" variant="dark" className="animate-navbar nav-theme justify-content-between">
-        <Navbar.Brand href="#home">
-                Hi! I'm Francis <btsp></btsp>
-            <img className='logo' src={Logo} alt='My Portfolio Logo' />       
-        </Navbar.Brand>
+    <div>
+        <Navbar fixed="top" expand="md" variant="dark" className="animate-navbar nav-theme active justify-content-between">
+            <div>
+            <Navbar.Brand href="#Home">
+                    Hi! I'm Francis <btsp></btsp>
+                <img className="logo" src={Logo} alt="" />       
+            </Navbar.Brand>
+            </div>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#project">Project</Nav.Link>
-            </Nav>
-            
-        </Navbar.Collapse>
-    </Navbar>
-            
-        </>
-    )
-}
+            <div>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link href="#Home">Home</Nav.Link>
+                    <Nav.Link href="#About">About</Nav.Link>
+                    <Nav.Link href="#Skills">Tech Skills</Nav.Link>
+                    <Nav.Link href="#Contacts">Contacts</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+            </div>
+        </Navbar>
+    </div>
+    );
+};
 
 export default MyNavbar
