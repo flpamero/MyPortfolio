@@ -24,15 +24,12 @@ const About = () => {
 
           {/*Description*/}
           <Col xs={12} md={6}>
-            <Row>
+            <Row className="pl-2 pr-2">
               Hi there! I am <strong>&nbsp;Francis Pamero</strong>
                 <br />A passionate Developer and Willing to learn more about development, residing in Philippines.
                 I am a Developer who started learning and studying different language and environment in terms of Web development.
                 <br />
                 In 2020, I successfully completed my course which is Information Systems in City College of Angeles.
-                <br />
-                I was a Team Leader before in PizzaHut.
-                I don't have any experience in web development.
                 <br />
                 Working with the clients, my goal is always driven towards providing
                 amazing experience with the best level of quality and service to them. 
