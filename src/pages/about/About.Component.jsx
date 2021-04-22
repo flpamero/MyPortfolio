@@ -24,7 +24,7 @@ const About = () => {
 
           {/*Description*/}
           <Col xs={12} md={6}>
-            <Row className="pl-2 pr-2">
+            <Row className="mb-2 mr-2">
               Hi there! I am <strong>&nbsp;Francis Pamero</strong>
                 <br />A passionate Developer and Willing to learn more about development, residing in Philippines.
                 I am a Developer who started learning and studying different language and environment in terms of Web development.
