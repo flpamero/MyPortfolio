@@ -31,6 +31,7 @@ const About = () => {
                 <br />
                 In 2020, I successfully completed my course which is Information Systems in City College of Angeles.
                 <br />
+
                 Working with the clients, my goal is always driven towards providing
                 amazing experience with the best level of quality and service to them. 
                 <br />I love learning about new technologies, what problems are they solving
