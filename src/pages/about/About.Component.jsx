@@ -29,11 +29,11 @@ const About = () => {
                 <br />A passionate Developer and Willing to learn more about development, residing in Philippines.
                 I am a Developer who started learning and studying different language and environment in terms of Web development.
                 <br />
-                In 2020, I successfully completed my course which is Information Systems in City College of Angeles.
+                In 2020, I successfully completed my course Bs in Information System in City College of Angeles.
                 <br />
                 Working with the clients, my goal is always driven towards providing
                 amazing experience with the best level of quality and service to them. 
-                <br />I love learning about new technologies, what problems are they solving
+                <br />I love learning about new technologies and what problems are they solving
                 and How can I use them to build better and scalable products.
                 <br /> <br />
             </Row>

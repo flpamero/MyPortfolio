@@ -9,13 +9,8 @@ const Skills = () => {
     <div id="Skills">
     <CardDeck>
         <Card className="text-center">
-        <h1 className="pt-3 text-center font-details pb-3"><strong>TECH Skills</strong></h1>
+        <h1 className="pt-3 text-center font-details"><strong>TECH Skills</strong></h1>
             <Card.Body>
-                <h3><Card.Text>
-                <Badge variant="secondary">
-                Web Development 
-                </Badge></Card.Text></h3>
-
                 <h3><Card.Text>
                 <Badge variant="secondary">
                 Vue.js 
